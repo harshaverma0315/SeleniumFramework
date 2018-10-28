@@ -1,0 +1,8 @@
+22:57:17.113 [main] INFO  resources.base - Successfully closed the browser
+23:30:53.177 [main] INFO  resources.base - driver is initialized
+23:30:56.355 [main] INFO  resources.base - Navigated to homepage
+23:30:58.629 [main] INFO  resources.base - Successfully closed the browser
+23:31:04.944 [main] INFO  resources.base - driver is initialized
+23:31:09.074 [main] INFO  resources.base - Navigated to homepage
+23:31:11.167 [main] INFO  resources.base - Successfully tested login code
+23:31:12.978 [main] INFO  resources.base - Successfully closed the browser

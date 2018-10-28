@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 30.916 s <<< FAILURE! - in TestSuite
+titleValidation(SeleniumTesting.AssertionsCode)  Time elapsed: 1.338 s  <<< FAILURE!
+java.lang.AssertionError: expected [Automations Practice Website] but found [Automation Practice Website]
+	at SeleniumTesting.AssertionsCode.titleValidation(AssertionsCode.java:31)
+

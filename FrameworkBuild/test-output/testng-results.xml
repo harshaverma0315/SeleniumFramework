@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="27584" started-at="2018-10-27T23:24:46Z" finished-at="2018-10-27T23:25:14Z">
+    <groups>
+    </groups>
+    <test name="validating assertion code" duration-ms="13381" started-at="2018-10-27T23:24:46Z" finished-at="2018-10-27T23:25:00Z">
+      <class name="SeleniumTesting.AssertionsCode">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:SeleniumTesting.AssertionsCode@689604d9]" name="basePageNavigation" is-config="true" duration-ms="10913" started-at="2018-10-27T23:24:46Z" finished-at="2018-10-27T23:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="FAIL" signature="titleValidation()[pri:0, instance:SeleniumTesting.AssertionsCode@689604d9]" name="titleValidation" duration-ms="57" started-at="2018-10-27T23:24:57Z" finished-at="2018-10-27T23:24:57Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Automations Practice Website] but found [Automation Practice Website]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Automations Practice Website] but found [Automation Practice Website]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at SeleniumTesting.AssertionsCode.titleValidation(AssertionsCode.java:31)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleValidation -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SeleniumTesting.AssertionsCode@689604d9]" name="teardown" is-config="true" duration-ms="1233" started-at="2018-10-27T23:24:58Z" finished-at="2018-10-27T23:25:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumTesting.AssertionsCode -->
+    </test> <!-- validating assertion code -->
+    <test name="validation login test" duration-ms="14157" started-at="2018-10-27T23:25:00Z" finished-at="2018-10-27T23:25:14Z">
+      <class name="SeleniumTesting.LoginTest">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:SeleniumTesting.LoginTest@1bb5a082]" name="basePageNavigation" is-config="true" duration-ms="9615" started-at="2018-10-27T23:25:00Z" finished-at="2018-10-27T23:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:SeleniumTesting.LoginTest@1bb5a082]" name="signIn" duration-ms="2928" started-at="2018-10-27T23:25:09Z" data-provider="getData" finished-at="2018-10-27T23:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[harsha@gmail.comm]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SeleniumTesting.LoginTest@1bb5a082]" name="teardown" is-config="true" duration-ms="1606" started-at="2018-10-27T23:25:12Z" finished-at="2018-10-27T23:25:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- SeleniumTesting.LoginTest -->
+    </test> <!-- validation login test -->
+  </suite> <!-- Suite -->
+</testng-results>

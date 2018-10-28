@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="SeleniumTesting.Listeners"/>
+    <listener class-name="resources.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="validating assertion code(failed)">
+    <classes>
+      <class name="SeleniumTesting.AssertionsCode">
+        <methods>
+          <include name="teardown"/>
+          <include name="titleValidation"/>
+          <include name="basePageNavigation"/>
+        </methods>
+      </class> <!-- SeleniumTesting.AssertionsCode -->
+    </classes>
+  </test> <!-- validating assertion code(failed) -->
+</suite> <!-- Failed suite [Suite] -->
