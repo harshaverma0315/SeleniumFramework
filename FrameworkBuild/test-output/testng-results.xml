@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="27584" started-at="2018-10-27T23:24:46Z" finished-at="2018-10-27T23:25:14Z">
+  <suite name="Default suite" duration-ms="12079" started-at="2018-10-30T16:36:16Z" finished-at="2018-10-30T16:36:28Z">
     <groups>
     </groups>
-    <test name="validating assertion code" duration-ms="13381" started-at="2018-10-27T23:24:46Z" finished-at="2018-10-27T23:25:00Z">
+    <test name="Default test" duration-ms="12079" started-at="2018-10-30T16:36:16Z" finished-at="2018-10-30T16:36:28Z">
       <class name="SeleniumTesting.AssertionsCode">
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:SeleniumTesting.AssertionsCode@689604d9]" name="basePageNavigation" is-config="true" duration-ms="10913" started-at="2018-10-27T23:24:46Z" finished-at="2018-10-27T23:24:57Z">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:SeleniumTesting.AssertionsCode@55b699ef]" name="basePageNavigation" is-config="true" duration-ms="10843" started-at="2018-10-30T16:36:16Z" finished-at="2018-10-30T16:36:27Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="FAIL" signature="titleValidation()[pri:0, instance:SeleniumTesting.AssertionsCode@689604d9]" name="titleValidation" duration-ms="57" started-at="2018-10-27T23:24:57Z" finished-at="2018-10-27T23:24:57Z">
+        <test-method status="FAIL" signature="titleValidation()[pri:0, instance:SeleniumTesting.AssertionsCode@55b699ef]" name="titleValidation" duration-ms="70" started-at="2018-10-30T16:36:27Z" finished-at="2018-10-30T16:36:27Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Automations Practice Website] but found [Automation Practice Website]]]>
@@ -56,39 +56,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- titleValidation -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:SeleniumTesting.AssertionsCode@689604d9]" name="teardown" is-config="true" duration-ms="1233" started-at="2018-10-27T23:24:58Z" finished-at="2018-10-27T23:25:00Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:SeleniumTesting.AssertionsCode@55b699ef]" name="teardown" is-config="true" duration-ms="1122" started-at="2018-10-30T16:36:27Z" finished-at="2018-10-30T16:36:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- SeleniumTesting.AssertionsCode -->
-    </test> <!-- validating assertion code -->
-    <test name="validation login test" duration-ms="14157" started-at="2018-10-27T23:25:00Z" finished-at="2018-10-27T23:25:14Z">
-      <class name="SeleniumTesting.LoginTest">
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:SeleniumTesting.LoginTest@1bb5a082]" name="basePageNavigation" is-config="true" duration-ms="9615" started-at="2018-10-27T23:25:00Z" finished-at="2018-10-27T23:25:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="signIn(java.lang.String, java.lang.String)[pri:0, instance:SeleniumTesting.LoginTest@1bb5a082]" name="signIn" duration-ms="2928" started-at="2018-10-27T23:25:09Z" data-provider="getData" finished-at="2018-10-27T23:25:12Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[harsha@gmail.comm]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[password]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- signIn -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:SeleniumTesting.LoginTest@1bb5a082]" name="teardown" is-config="true" duration-ms="1606" started-at="2018-10-27T23:25:12Z" finished-at="2018-10-27T23:25:14Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- SeleniumTesting.LoginTest -->
-    </test> <!-- validation login test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
