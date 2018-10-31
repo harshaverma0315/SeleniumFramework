@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-	<listeners>
-		<listener class-name="SeleniumTesting.Listeners" />
-		<listener class-name="resources.ExtentReporterNG" />
-	</listeners>
-	<test name="validating assertion code">
-		<classes>
-			<class name="SeleniumTesting.AssertionsCode" />
-		</classes>
-	</test>
-	<test name="validation login test">
-		<classes>
-			<class name="SeleniumTesting.LoginTest" />
-		</classes>
-	</test> <!-- Test -->
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="SeleniumTesting.CreateAccountTest"/>
+      <class name="SeleniumTesting.AssertionsCode"/>
+      <class name="SeleniumTesting.ForgotPassword"/>
+      <class name="SeleniumTesting.LoginTest"/>
+      <class name="SeleniumTesting.CreateAccounttTest2"/>
+    </classes>
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
