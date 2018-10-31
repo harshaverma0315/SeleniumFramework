@@ -39,7 +39,7 @@ public class CreateAccountTest extends base {
 		
 	        return new Object[][]
 	                {
-	            {"harsha@gmail.comm", "Male", "Harsha", "Verma", "password", "15", "March ", "1992", "Harsha", "Verma","","1234 address plaza",
+	            {"harsha@gmail.comm", "Male", "Harsha", "Verma", "password", "15", "March ", "1992", "", "","","1234 address plaza",
 	            	"apt#123","Omaha","Nebraska","12345","United States", "n/a", "1234567890", "9876543210", ""}
 	            };
 	  
@@ -98,6 +98,6 @@ public class CreateAccountTest extends base {
 	public void teardown() {
 		driver.close();
 		log.info("Successfully closed the browser");
-		driver = null;
+		
 	}
 }

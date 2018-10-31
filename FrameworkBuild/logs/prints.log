@@ -1,7 +1,2 @@
-11:35:37.384 [main] INFO  resources.base - driver is initialized
-11:35:40.666 [main] INFO  resources.base - Navigated to homepage
-11:35:43.685 [main] INFO  resources.base - Successfully tested login code
-11:35:45.561 [main] INFO  resources.base - Successfully closed the browser
-11:36:23.616 [main] INFO  resources.base - driver is initialized
-11:36:27.363 [main] INFO  resources.base - Navigated to homepage
-11:36:28.598 [main] INFO  resources.base - Successfully closed the browser
+20:05:41.648 [main] INFO  resources.base - Successfully tested CreateAccount code
+20:05:43.420 [main] INFO  resources.base - Successfully closed the browser

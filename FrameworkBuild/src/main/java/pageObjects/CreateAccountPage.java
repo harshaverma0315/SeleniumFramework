@@ -21,8 +21,11 @@ public class CreateAccountPage
 	@FindBy(id="SubmitCreate")
 	WebElement CreateAccountButton;
 	
-	@FindBy(xpath="//input[@name='id_gender']")
-	WebElement gender;
+	@FindBy(xpath="//input[@id='id_gender1']")
+	WebElement gender1;
+	
+	@FindBy(xpath="//input[@id='id_gender2']")
+	WebElement gender2;
 	
 	@FindBy(css="input[id='customer_firstname']")
 	WebElement CustomerFirstName;
@@ -36,14 +39,16 @@ public class CreateAccountPage
 	@FindBy(xpath="//select[@id='days']")
 	WebElement days;
 	
-	@FindBy(xpath="//select[@id='months']")
+	@FindBy(id="months")
 	WebElement months;
 	
 	@FindBy(xpath="//select[@id='years']")
 	WebElement years;
 	
-	@FindBy(xpath="//input[@type='checkbox']")
-	WebElement checkbox;
+	@FindBy(xpath="//input[@name='newsletter']")
+	WebElement checkbox1;
+	@FindBy(xpath="//input[@name='optin']")
+	WebElement checkbox2;
 	
 	@FindBy(id="firstname")
 	WebElement FirstName;
@@ -95,9 +100,13 @@ public class CreateAccountPage
 	{
 		return CreateAccountButton;
 	}	
-	public WebElement gender()
+	public WebElement gender1()
 	{
-		return gender;
+		return gender1;
+	}
+	public WebElement gender2()
+	{
+		return gender2;
 	}
 	public WebElement CustomerFirstName()
 	{
@@ -123,9 +132,13 @@ public class CreateAccountPage
 	{
 		return years;
 	}
-	public WebElement ChechBox()
+	public WebElement ChechBox1()
 	{
-		return checkbox;
+		return checkbox1;
+	}
+	public WebElement ChechBox2()
+	{
+		return checkbox2;
 	}
 	
 	public WebElement FirstName()
@@ -135,6 +148,10 @@ public class CreateAccountPage
 	public WebElement LastName()
 	{
 		return LastName;
+	}
+	public WebElement Company() 
+	{
+		return Company;
 	}
 	public WebElement Address()
 	{
